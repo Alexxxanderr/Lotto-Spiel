@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <form class="lotto">
+            <div class="elemente_container">
+                <fieldset>
+                    <legend class="tippfeld">6 aus 49</legend>
+                    <table class="tabelle_6_49" style="width:100%">
+            
+                    </table>  
+                </fieldset>
+        
+                <fieldset>
+                    <legend class="superzahl">Superzahl</legend>
+                    <table class="tabelle_superzahl" style="width:100%">
+        
+                    </table>
+                </fieldset>
+                <div class="button_spielen">
+                    <button id="spielen">Spiel starten</button>
+                </div>
+                <div class="info">
+                    <p id="meldung_6_aus_49"></p>
+                    <p id="meldung_superzahl">Viele Erfolg</p>
+                    <p id="meldung_zahlen"></p>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script src="main.js" defer></script>
+</body>
+</html>

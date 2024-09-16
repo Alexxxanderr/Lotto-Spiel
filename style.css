@@ -1,0 +1,74 @@
+.container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.elemente_container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+fieldset {
+    color: firebrick;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+fieldset:first-of-type {
+    margin-bottom: 40px;
+}
+
+table td { 
+    border: 1px solid  firebrick;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.button_spielen {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button {
+    margin: 10px 0 10px 0;
+    padding: 8px;
+    width: 200px;
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 2px;
+}
+
+.info {
+    color: whitesmoke;
+    background-color: #0d6efd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 170px;
+    border-radius: 8px;
+    border: 1px solid rgb(201, 201, 201);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.meldung_6_aus_49 {
+    margin-left: 29px;
+    width: 440px;
+    background-color: red;
+    padding: 0;
+    border-radius: 6px;
+}
+.meldung_superzahl{
+    margin-left: 99px;
+    width: 300px;
+    background-color: red;
+    border-radius: 6px;
+}
+
